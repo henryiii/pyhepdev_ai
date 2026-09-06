@@ -1,0 +1,5 @@
+__marimo__/
+.DS_Store
+*.pdf
+output_dir/
+.claude/

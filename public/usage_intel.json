@@ -1,0 +1,992 @@
+{
+  "daily": [
+    {
+      "date": "2026-03-13",
+      "inputTokens": 445203,
+      "outputTokens": 9812,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalCost": 0,
+      "modelsUsed": [
+        "auto"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "auto",
+          "inputTokens": 445203,
+          "outputTokens": 9812,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "plumbum",
+          "inputTokens": 445203,
+          "outputTokens": 9812,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "vscode-copilot",
+          "inputTokens": 445203,
+          "outputTokens": 9812,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-03-18",
+      "inputTokens": 115068,
+      "outputTokens": 12559,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 602620,
+      "totalCost": 0.3718908,
+      "modelsUsed": [
+        "claude-sonnet-4-6",
+        "claude-haiku-4-5",
+        "auto"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-sonnet-4-6",
+          "inputTokens": 39428,
+          "outputTokens": 3219,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 288319,
+          "cost": 0.25306470000000003
+        },
+        {
+          "modelName": "claude-haiku-4-5",
+          "inputTokens": 40976,
+          "outputTokens": 9284,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 314301,
+          "cost": 0.1188261
+        },
+        {
+          "modelName": "auto",
+          "inputTokens": 34664,
+          "outputTokens": 56,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "check_sdist",
+          "inputTokens": 80404,
+          "outputTokens": 12503,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 602620,
+          "cost": 0.3718908
+        },
+        {
+          "project": "flake8-lazy",
+          "inputTokens": 34664,
+          "outputTokens": 56,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "copilot",
+          "inputTokens": 80404,
+          "outputTokens": 12503,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 602620,
+          "cost": 0.3718908
+        },
+        {
+          "agent": "vscode-copilot",
+          "inputTokens": 34664,
+          "outputTokens": 56,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-04-01",
+      "inputTokens": 131936,
+      "outputTokens": 24993,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 1107572,
+      "totalCost": 0.5143767,
+      "modelsUsed": [
+        "claude-sonnet-4-6",
+        "claude-haiku-4-5",
+        "gpt-5-mini"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-sonnet-4-6",
+          "inputTokens": 39456,
+          "outputTokens": 6503,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 561591,
+          "cost": 0.38439029999999996
+        },
+        {
+          "modelName": "claude-haiku-4-5",
+          "inputTokens": 32678,
+          "outputTokens": 5045,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 221245,
+          "cost": 0.0800275
+        },
+        {
+          "modelName": "gpt-5-mini",
+          "inputTokens": 59802,
+          "outputTokens": 13445,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 324736,
+          "cost": 0.0499589
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "repo_review",
+          "inputTokens": 131936,
+          "outputTokens": 24993,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 1107572,
+          "cost": 0.5143767
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "copilot",
+          "inputTokens": 131936,
+          "outputTokens": 24993,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 1107572,
+          "cost": 0.5143767
+        }
+      ]
+    },
+    {
+      "date": "2026-04-02",
+      "inputTokens": 463783,
+      "outputTokens": 53224,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 3874560,
+      "totalCost": 0.45709595,
+      "modelsUsed": [
+        "gpt-5.4-mini",
+        "gpt-5-mini",
+        "auto"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "gpt-5.4-mini",
+          "inputTokens": 74665,
+          "outputTokens": 14002,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 1516544,
+          "cost": 0.23274855
+        },
+        {
+          "modelName": "gpt-5-mini",
+          "inputTokens": 349212,
+          "outputTokens": 39047,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 2358016,
+          "cost": 0.22434739999999997
+        },
+        {
+          "modelName": "auto",
+          "inputTokens": 39906,
+          "outputTokens": 175,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "cookie",
+          "inputTokens": 74665,
+          "outputTokens": 14002,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 1516544,
+          "cost": 0.23274855
+        },
+        {
+          "project": "repo_review",
+          "inputTokens": 243282,
+          "outputTokens": 24655,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 2025728,
+          "cost": 0.1607737
+        },
+        {
+          "project": "packaging",
+          "inputTokens": 105930,
+          "outputTokens": 14392,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 332288,
+          "cost": 0.0635737
+        },
+        {
+          "project": "repo-review",
+          "inputTokens": 39906,
+          "outputTokens": 175,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "copilot",
+          "inputTokens": 423877,
+          "outputTokens": 53049,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 3874560,
+          "cost": 0.45709595
+        },
+        {
+          "agent": "vscode-copilot",
+          "inputTokens": 39906,
+          "outputTokens": 175,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-04-03",
+      "inputTokens": 889111,
+      "outputTokens": 131933,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 7564416,
+      "totalCost": 1.2221902,
+      "modelsUsed": [
+        "gpt-5.4-mini",
+        "gpt-5-mini",
+        "auto"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "gpt-5.4-mini",
+          "inputTokens": 351233,
+          "outputTokens": 57449,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 4670976,
+          "cost": 0.8722684499999999
+        },
+        {
+          "modelName": "gpt-5-mini",
+          "inputTokens": 514903,
+          "outputTokens": 74430,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 2893440,
+          "cost": 0.34992175000000003
+        },
+        {
+          "modelName": "auto",
+          "inputTokens": 22975,
+          "outputTokens": 54,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "cookie",
+          "inputTokens": 136300,
+          "outputTokens": 23973,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 2248192,
+          "cost": 0.37871789999999994
+        },
+        {
+          "project": "repo_review",
+          "inputTokens": 197577,
+          "outputTokens": 28896,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 1480832,
+          "cost": 0.32409995
+        },
+        {
+          "project": "packaging",
+          "inputTokens": 358560,
+          "outputTokens": 58298,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 2681984,
+          "cost": 0.2732856
+        },
+        {
+          "project": "scikit_build_core",
+          "inputTokens": 104542,
+          "outputTokens": 13426,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 921600,
+          "cost": 0.1625457
+        },
+        {
+          "project": "cibuildwheel",
+          "inputTokens": 69157,
+          "outputTokens": 7286,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 231808,
+          "cost": 0.08354104999999999
+        },
+        {
+          "project": "repo-review",
+          "inputTokens": 22975,
+          "outputTokens": 54,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "copilot",
+          "inputTokens": 866136,
+          "outputTokens": 131879,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 7564416,
+          "cost": 1.2221901999999998
+        },
+        {
+          "agent": "vscode-copilot",
+          "inputTokens": 22975,
+          "outputTokens": 54,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-04-04",
+      "inputTokens": 204458,
+      "outputTokens": 30865,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 2751795,
+      "totalCost": 0.7822248,
+      "modelsUsed": [
+        "gpt-5.4-mini",
+        "claude-sonnet-4-6"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "gpt-5.4-mini",
+          "inputTokens": 159986,
+          "outputTokens": 22750,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 2314752,
+          "cost": 0.3959709
+        },
+        {
+          "modelName": "claude-sonnet-4-6",
+          "inputTokens": 44472,
+          "outputTokens": 8115,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 437043,
+          "cost": 0.38625390000000004
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "repo_review",
+          "inputTokens": 167224,
+          "outputTokens": 27494,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 2384179,
+          "cost": 0.7115586
+        },
+        {
+          "project": "scikit_build_core",
+          "inputTokens": 37234,
+          "outputTokens": 3371,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 367616,
+          "cost": 0.0706662
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "copilot",
+          "inputTokens": 204458,
+          "outputTokens": 30865,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 2751795,
+          "cost": 0.7822248
+        }
+      ]
+    },
+    {
+      "date": "2026-04-05",
+      "inputTokens": 678994,
+      "outputTokens": 104697,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 7316265,
+      "totalCost": 2.2503162,
+      "modelsUsed": [
+        "claude-sonnet-4-6",
+        "gpt-5-mini"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-sonnet-4-6",
+          "inputTokens": 194328,
+          "outputTokens": 32725,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 2648873,
+          "cost": 1.8685209
+        },
+        {
+          "modelName": "gpt-5-mini",
+          "inputTokens": 484666,
+          "outputTokens": 71972,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 4667392,
+          "cost": 0.38179529999999995
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "repo_review",
+          "inputTokens": 463168,
+          "outputTokens": 65197,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 5180969,
+          "cost": 2.0639773
+        },
+        {
+          "project": "packaging",
+          "inputTokens": 215826,
+          "outputTokens": 39500,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 2135296,
+          "cost": 0.1863389
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "copilot",
+          "inputTokens": 678994,
+          "outputTokens": 104697,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 7316265,
+          "cost": 2.2503162
+        }
+      ]
+    },
+    {
+      "date": "2026-04-06",
+      "inputTokens": 277007,
+      "outputTokens": 16993,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 2000000,
+      "totalCost": 0.11512175,
+      "modelsUsed": [
+        "gpt-5-mini",
+        "auto"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "gpt-5-mini",
+          "inputTokens": 134175,
+          "outputTokens": 15789,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 2000000,
+          "cost": 0.11512175
+        },
+        {
+          "modelName": "auto",
+          "inputTokens": 142832,
+          "outputTokens": 1204,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "packaging",
+          "inputTokens": 134175,
+          "outputTokens": 15789,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 2000000,
+          "cost": 0.11512175
+        },
+        {
+          "project": "repo-review",
+          "inputTokens": 142832,
+          "outputTokens": 1204,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "copilot",
+          "inputTokens": 134175,
+          "outputTokens": 15789,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 2000000,
+          "cost": 0.11512175
+        },
+        {
+          "agent": "vscode-copilot",
+          "inputTokens": 142832,
+          "outputTokens": 1204,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-04-08",
+      "inputTokens": 38743,
+      "outputTokens": 4277,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 46464,
+      "totalCost": 0.019401349999999998,
+      "modelsUsed": [
+        "gpt-5-mini"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "gpt-5-mini",
+          "inputTokens": 38743,
+          "outputTokens": 4277,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 46464,
+          "cost": 0.019401349999999998
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "Downloads",
+          "inputTokens": 38743,
+          "outputTokens": 4277,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 46464,
+          "cost": 0.019401349999999998
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "copilot",
+          "inputTokens": 38743,
+          "outputTokens": 4277,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 46464,
+          "cost": 0.019401349999999998
+        }
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "inputTokens": 133448,
+      "outputTokens": 16468,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 654208,
+      "totalCost": 0.08265320000000001,
+      "modelsUsed": [
+        "gpt-5-mini"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "gpt-5-mini",
+          "inputTokens": 133448,
+          "outputTokens": 16468,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 654208,
+          "cost": 0.08265320000000001
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "build",
+          "inputTokens": 133448,
+          "outputTokens": 16468,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 654208,
+          "cost": 0.08265320000000001
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "copilot",
+          "inputTokens": 133448,
+          "outputTokens": 16468,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 654208,
+          "cost": 0.08265320000000001
+        }
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "inputTokens": 122407,
+      "outputTokens": 12579,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 1099136,
+      "totalCost": 0.08323815,
+      "modelsUsed": [
+        "gpt-5-mini"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "gpt-5-mini",
+          "inputTokens": 122407,
+          "outputTokens": 12579,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 1099136,
+          "cost": 0.08323815
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "packaging",
+          "inputTokens": 122407,
+          "outputTokens": 12579,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 1099136,
+          "cost": 0.08323815
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "copilot",
+          "inputTokens": 122407,
+          "outputTokens": 12579,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 1099136,
+          "cost": 0.08323815
+        }
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "inputTokens": 11426481,
+      "outputTokens": 83150,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 1557150,
+      "totalCost": 0.56068465,
+      "modelsUsed": [
+        "claude-sonnet-4-6",
+        "gpt-5-mini",
+        "kimi"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-sonnet-4-6",
+          "inputTokens": 49676,
+          "outputTokens": 7336,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 706206,
+          "cost": 0.4709298
+        },
+        {
+          "modelName": "gpt-5-mini",
+          "inputTokens": 157421,
+          "outputTokens": 14563,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 850944,
+          "cost": 0.08975485
+        },
+        {
+          "modelName": "kimi",
+          "inputTokens": 11219384,
+          "outputTokens": 61251,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "build",
+          "inputTokens": 49676,
+          "outputTokens": 7336,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 706206,
+          "cost": 0.4709298
+        },
+        {
+          "project": "packaging",
+          "inputTokens": 82831,
+          "outputTokens": 10088,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 506880,
+          "cost": 0.05355575
+        },
+        {
+          "project": "nox",
+          "inputTokens": 74590,
+          "outputTokens": 4475,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 344064,
+          "cost": 0.0361991
+        },
+        {
+          "project": "iscinumpy.gitlab.io",
+          "inputTokens": 477732,
+          "outputTokens": 7471,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        },
+        {
+          "project": "nox2",
+          "inputTokens": 5377238,
+          "outputTokens": 19278,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        },
+        {
+          "project": "pip",
+          "inputTokens": 3325319,
+          "outputTokens": 12815,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        },
+        {
+          "project": "pipx",
+          "inputTokens": 1406696,
+          "outputTokens": 10831,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        },
+        {
+          "project": "safe_ose_2026",
+          "inputTokens": 632399,
+          "outputTokens": 10856,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "copilot",
+          "inputTokens": 207097,
+          "outputTokens": 21899,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 1557150,
+          "cost": 0.56068465
+        },
+        {
+          "agent": "opencode",
+          "inputTokens": 11219384,
+          "outputTokens": 61251,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "inputTokens": 11762091,
+      "outputTokens": 79907,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 486256,
+      "totalCost": 0.6691308,
+      "modelsUsed": [
+        "claude-sonnet-4-6",
+        "kimi"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-sonnet-4-6",
+          "inputTokens": 102613,
+          "outputTokens": 14361,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 486256,
+          "cost": 0.6691308
+        },
+        {
+          "modelName": "kimi",
+          "inputTokens": 11659478,
+          "outputTokens": 65546,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "build",
+          "inputTokens": 102613,
+          "outputTokens": 14361,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 486256,
+          "cost": 0.6691308
+        },
+        {
+          "project": "nox2",
+          "inputTokens": 11203096,
+          "outputTokens": 51747,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        },
+        {
+          "project": "skills",
+          "inputTokens": 456382,
+          "outputTokens": 13799,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "copilot",
+          "inputTokens": 102613,
+          "outputTokens": 14361,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 486256,
+          "cost": 0.6691308
+        },
+        {
+          "agent": "opencode",
+          "inputTokens": 11659478,
+          "outputTokens": 65546,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-04-17",
+      "inputTokens": 7072738,
+      "outputTokens": 66992,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalCost": 0,
+      "modelsUsed": [
+        "kimi"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "kimi",
+          "inputTokens": 7072738,
+          "outputTokens": 66992,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "cookie",
+          "inputTokens": 1207635,
+          "outputTokens": 12556,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        },
+        {
+          "project": "particle",
+          "inputTokens": 4729722,
+          "outputTokens": 40017,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        },
+        {
+          "project": "pybind11",
+          "inputTokens": 272291,
+          "outputTokens": 2335,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        },
+        {
+          "project": "skills",
+          "inputTokens": 443306,
+          "outputTokens": 4722,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        },
+        {
+          "project": "validate_pyproject",
+          "inputTokens": 419784,
+          "outputTokens": 7362,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "opencode",
+          "inputTokens": 7072738,
+          "outputTokens": 66992,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "inputTokens": 33761468,
+    "outputTokens": 648449,
+    "cacheCreationTokens": 0,
+    "cacheReadTokens": 29060442,
+    "totalCost": 7.12832455,
+    "copilotAICredits": 712.8324549999999,
+    "cacheSavings": 23.418628199999993
+  },
+  "sessionCounts": {
+    "total": 76,
+    "byProject": {
+      "Downloads": 1,
+      "build": 3,
+      "check_sdist": 1,
+      "cibuildwheel": 2,
+      "cookie": 6,
+      "flake8-lazy": 1,
+      "iscinumpy.gitlab.io": 1,
+      "nox": 1,
+      "nox2": 4,
+      "packaging": 10,
+      "particle": 4,
+      "pip": 2,
+      "pipx": 3,
+      "plumbum": 2,
+      "pybind11": 4,
+      "repo-review": 4,
+      "repo_review": 14,
+      "safe_ose_2026": 3,
+      "scikit_build_core": 3,
+      "skills": 4,
+      "validate_pyproject": 3
+    },
+    "byAgent": {
+      "copilot": 37,
+      "opencode": 32,
+      "vscode-copilot": 7
+    }
+  }
+}

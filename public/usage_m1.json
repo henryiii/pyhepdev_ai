@@ -1,0 +1,1290 @@
+{
+  "daily": [
+    {
+      "date": "2026-02-06",
+      "inputTokens": 25032,
+      "outputTokens": 216,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalCost": 0,
+      "modelsUsed": [
+        "auto"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "auto",
+          "inputTokens": 25032,
+          "outputTokens": 216,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "particle",
+          "inputTokens": 25032,
+          "outputTokens": 216,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "vscode-copilot",
+          "inputTokens": 25032,
+          "outputTokens": 216,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-02-12",
+      "inputTokens": 310165,
+      "outputTokens": 2436,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalCost": 0,
+      "modelsUsed": [
+        "auto"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "auto",
+          "inputTokens": 310165,
+          "outputTokens": 2436,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "packaging",
+          "inputTokens": 310165,
+          "outputTokens": 2436,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "vscode-copilot",
+          "inputTokens": 310165,
+          "outputTokens": 2436,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-02-13",
+      "inputTokens": 156442,
+      "outputTokens": 1268,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalCost": 0,
+      "modelsUsed": [
+        "auto"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "auto",
+          "inputTokens": 156442,
+          "outputTokens": 1268,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "packaging",
+          "inputTokens": 156442,
+          "outputTokens": 1268,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "vscode-copilot",
+          "inputTokens": 156442,
+          "outputTokens": 1268,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-02-16",
+      "inputTokens": 110434,
+      "outputTokens": 1349,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalCost": 0,
+      "modelsUsed": [
+        "auto"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "auto",
+          "inputTokens": 110434,
+          "outputTokens": 1349,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "scikit-build-core",
+          "inputTokens": 110434,
+          "outputTokens": 1349,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "vscode-copilot",
+          "inputTokens": 110434,
+          "outputTokens": 1349,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-02-17",
+      "inputTokens": 868003,
+      "outputTokens": 3963,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalCost": 0,
+      "modelsUsed": [
+        "auto"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "auto",
+          "inputTokens": 868003,
+          "outputTokens": 3963,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "plumbum",
+          "inputTokens": 868003,
+          "outputTokens": 3963,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "vscode-copilot",
+          "inputTokens": 868003,
+          "outputTokens": 3963,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-02-18",
+      "inputTokens": 92691,
+      "outputTokens": 916,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalCost": 0,
+      "modelsUsed": [
+        "auto"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "auto",
+          "inputTokens": 92691,
+          "outputTokens": 916,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "scikit-build-core",
+          "inputTokens": 92691,
+          "outputTokens": 916,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "vscode-copilot",
+          "inputTokens": 92691,
+          "outputTokens": 916,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-03-07",
+      "inputTokens": 175918,
+      "outputTokens": 814,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalCost": 0,
+      "modelsUsed": [
+        "auto"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "auto",
+          "inputTokens": 175918,
+          "outputTokens": 814,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "plumbum",
+          "inputTokens": 175918,
+          "outputTokens": 814,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "vscode-copilot",
+          "inputTokens": 175918,
+          "outputTokens": 814,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-03-10",
+      "inputTokens": 74966,
+      "outputTokens": 587,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalCost": 0,
+      "modelsUsed": [
+        "auto"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "auto",
+          "inputTokens": 74966,
+          "outputTokens": 587,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "packaging",
+          "inputTokens": 74966,
+          "outputTokens": 587,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "vscode-copilot",
+          "inputTokens": 74966,
+          "outputTokens": 587,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-03-12",
+      "inputTokens": 766064,
+      "outputTokens": 3145,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalCost": 0,
+      "modelsUsed": [
+        "auto"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "auto",
+          "inputTokens": 766064,
+          "outputTokens": 3145,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "nox",
+          "inputTokens": 22654,
+          "outputTokens": 292,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        },
+        {
+          "project": "plumbum",
+          "inputTokens": 743410,
+          "outputTokens": 2853,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "vscode-copilot",
+          "inputTokens": 766064,
+          "outputTokens": 3145,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-03-16",
+      "inputTokens": 130184,
+      "outputTokens": 10979,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalCost": 0,
+      "modelsUsed": [
+        "auto"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "auto",
+          "inputTokens": 130184,
+          "outputTokens": 10979,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "packaging",
+          "inputTokens": 130184,
+          "outputTokens": 10979,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "vscode-copilot",
+          "inputTokens": 130184,
+          "outputTokens": 10979,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-03-18",
+      "inputTokens": 50470,
+      "outputTokens": 403,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalCost": 0,
+      "modelsUsed": [
+        "auto"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "auto",
+          "inputTokens": 50470,
+          "outputTokens": 403,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "flake8-lazy",
+          "inputTokens": 50470,
+          "outputTokens": 403,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "vscode-copilot",
+          "inputTokens": 50470,
+          "outputTokens": 403,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "inputTokens": 466145,
+      "outputTokens": 2686,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalCost": 0,
+      "modelsUsed": [
+        "auto"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "auto",
+          "inputTokens": 466145,
+          "outputTokens": 2686,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "flake8-lazy",
+          "inputTokens": 466145,
+          "outputTokens": 2686,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "vscode-copilot",
+          "inputTokens": 466145,
+          "outputTokens": 2686,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-03-23",
+      "inputTokens": 67172,
+      "outputTokens": 323,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalCost": 0,
+      "modelsUsed": [
+        "auto"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "auto",
+          "inputTokens": 67172,
+          "outputTokens": 323,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "build",
+          "inputTokens": 67172,
+          "outputTokens": 323,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "vscode-copilot",
+          "inputTokens": 67172,
+          "outputTokens": 323,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-03-24",
+      "inputTokens": 66101,
+      "outputTokens": 1451,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalCost": 0.073356,
+      "modelsUsed": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-haiku-4-5-20251001",
+          "inputTokens": 66101,
+          "outputTokens": 1451,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0.073356
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "build",
+          "inputTokens": 66101,
+          "outputTokens": 1451,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0.073356
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "vscode-copilot",
+          "inputTokens": 66101,
+          "outputTokens": 1451,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0.073356
+        }
+      ]
+    },
+    {
+      "date": "2026-03-25",
+      "inputTokens": 61470,
+      "outputTokens": 1533,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalCost": 0.207405,
+      "modelsUsed": [
+        "claude-sonnet-4-6"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-sonnet-4-6",
+          "inputTokens": 61470,
+          "outputTokens": 1533,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0.207405
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "cibuildwheel",
+          "inputTokens": 61470,
+          "outputTokens": 1533,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0.207405
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "vscode-copilot",
+          "inputTokens": 61470,
+          "outputTokens": 1533,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0.207405
+        }
+      ]
+    },
+    {
+      "date": "2026-03-27",
+      "inputTokens": 384631,
+      "outputTokens": 2061,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 0,
+      "totalCost": 0.394936,
+      "modelsUsed": [
+        "claude-haiku-4-5-20251001"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-haiku-4-5-20251001",
+          "inputTokens": 384631,
+          "outputTokens": 2061,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0.394936
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "flake8-lazy",
+          "inputTokens": 384631,
+          "outputTokens": 2061,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0.394936
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "vscode-copilot",
+          "inputTokens": 384631,
+          "outputTokens": 2061,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0.394936
+        }
+      ]
+    },
+    {
+      "date": "2026-04-08",
+      "inputTokens": 173251,
+      "outputTokens": 5697,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 576546,
+      "totalCost": 0.2593906,
+      "modelsUsed": [
+        "claude-haiku-4-5-20251001",
+        "claude-haiku-4-5"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-haiku-4-5-20251001",
+          "inputTokens": 141182,
+          "outputTokens": 2329,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0.15282700000000002
+        },
+        {
+          "modelName": "claude-haiku-4-5",
+          "inputTokens": 32069,
+          "outputTokens": 3368,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 576546,
+          "cost": 0.1065636
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "nox",
+          "inputTokens": 32069,
+          "outputTokens": 3368,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 576546,
+          "cost": 0.1065636
+        },
+        {
+          "project": "packaging",
+          "inputTokens": 88536,
+          "outputTokens": 1656,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0.09681600000000001
+        },
+        {
+          "project": "cibuildwheel",
+          "inputTokens": 52646,
+          "outputTokens": 673,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0.056011
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "vscode-copilot",
+          "inputTokens": 141182,
+          "outputTokens": 2329,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0.15282700000000002
+        },
+        {
+          "agent": "copilot",
+          "inputTokens": 32069,
+          "outputTokens": 3368,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 576546,
+          "cost": 0.1065636
+        }
+      ]
+    },
+    {
+      "date": "2026-04-09",
+      "inputTokens": 19156146,
+      "outputTokens": 323908,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 15745921,
+      "totalCost": 3.6229567,
+      "modelsUsed": [
+        "claude-haiku-4-5",
+        "gpt-5-mini",
+        "claude-haiku-4-5-20251001",
+        "gpt-oss",
+        "qwen3"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-haiku-4-5",
+          "inputTokens": 641115,
+          "outputTokens": 22023,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 6493569,
+          "cost": 1.4005869
+        },
+        {
+          "modelName": "gpt-5-mini",
+          "inputTokens": 2577632,
+          "outputTokens": 208749,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 9252352,
+          "cost": 1.2932148
+        },
+        {
+          "modelName": "claude-haiku-4-5-20251001",
+          "inputTokens": 907120,
+          "outputTokens": 4407,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0.9291550000000001
+        },
+        {
+          "modelName": "gpt-oss",
+          "inputTokens": 3346051,
+          "outputTokens": 18385,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        },
+        {
+          "modelName": "qwen3",
+          "inputTokens": 11684228,
+          "outputTokens": 70344,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "build",
+          "inputTokens": 2894732,
+          "outputTokens": 164168,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 10498563,
+          "cost": 1.89584055
+        },
+        {
+          "project": "uhi",
+          "inputTokens": 817558,
+          "outputTokens": 3686,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0.8359880000000001
+        },
+        {
+          "project": "nox",
+          "inputTokens": 3757064,
+          "outputTokens": 70535,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 4944766,
+          "cost": 0.7345866
+        },
+        {
+          "project": "boost-histogram",
+          "inputTokens": 89562,
+          "outputTokens": 721,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0.093167
+        },
+        {
+          "project": "boost_histogram",
+          "inputTokens": 7224524,
+          "outputTokens": 55984,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 97280,
+          "cost": 0.0318975
+        },
+        {
+          "project": "scikit_build_core",
+          "inputTokens": 4267216,
+          "outputTokens": 22550,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 141952,
+          "cost": 0.0181253
+        },
+        {
+          "project": "pybind11_mkdoc",
+          "inputTokens": 14071,
+          "outputTokens": 4125,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 63360,
+          "cost": 0.01335175
+        },
+        {
+          "project": "unknown",
+          "inputTokens": 91419,
+          "outputTokens": 2139,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "copilot",
+          "inputTokens": 3218747,
+          "outputTokens": 230772,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 15745921,
+          "cost": 2.6938017
+        },
+        {
+          "agent": "vscode-copilot",
+          "inputTokens": 907120,
+          "outputTokens": 4407,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0.9291550000000001
+        },
+        {
+          "agent": "opencode",
+          "inputTokens": 15030279,
+          "outputTokens": 88729,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-04-10",
+      "inputTokens": 408839,
+      "outputTokens": 65413,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 5131136,
+      "totalCost": 0.36131415,
+      "modelsUsed": [
+        "gpt-5-mini"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "gpt-5-mini",
+          "inputTokens": 408839,
+          "outputTokens": 65413,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 5131136,
+          "cost": 0.36131415
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "build",
+          "inputTokens": 408839,
+          "outputTokens": 65413,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 5131136,
+          "cost": 0.36131415
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "copilot",
+          "inputTokens": 408839,
+          "outputTokens": 65413,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 5131136,
+          "cost": 0.36131415
+        }
+      ]
+    },
+    {
+      "date": "2026-04-13",
+      "inputTokens": 630554,
+      "outputTokens": 98215,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 3094690,
+      "totalCost": 2.3939813500000002,
+      "modelsUsed": [
+        "claude-sonnet-4-6",
+        "gpt-5-mini"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-sonnet-4-6",
+          "inputTokens": 330847,
+          "outputTokens": 58287,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 1072674,
+          "cost": 2.1886482000000003
+        },
+        {
+          "modelName": "gpt-5-mini",
+          "inputTokens": 299707,
+          "outputTokens": 39928,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 2022016,
+          "cost": 0.20533315
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "build",
+          "inputTokens": 630554,
+          "outputTokens": 98215,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 3094690,
+          "cost": 2.3939813500000002
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "copilot",
+          "inputTokens": 630554,
+          "outputTokens": 98215,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 3094690,
+          "cost": 2.3939813500000002
+        }
+      ]
+    },
+    {
+      "date": "2026-04-14",
+      "inputTokens": 11581995,
+      "outputTokens": 210460,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 6362558,
+      "totalCost": 6.6980424,
+      "modelsUsed": [
+        "claude-sonnet-4-6",
+        "kimi"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-sonnet-4-6",
+          "inputTokens": 1000800,
+          "outputTokens": 119125,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 6362558,
+          "cost": 6.6980424
+        },
+        {
+          "modelName": "kimi",
+          "inputTokens": 10581195,
+          "outputTokens": 91335,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "scikit_build.github.io",
+          "inputTokens": 616254,
+          "outputTokens": 68513,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 4291843,
+          "cost": 4.1640099
+        },
+        {
+          "project": "repo_review",
+          "inputTokens": 3182626,
+          "outputTokens": 56314,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 976237,
+          "cost": 1.4941281000000002
+        },
+        {
+          "project": "plumbum",
+          "inputTokens": 142057,
+          "outputTokens": 19026,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 1094478,
+          "cost": 1.0399044
+        },
+        {
+          "project": "build",
+          "inputTokens": 1187180,
+          "outputTokens": 20883,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        },
+        {
+          "project": "dependency_groups",
+          "inputTokens": 1683755,
+          "outputTokens": 16299,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        },
+        {
+          "project": "packaging",
+          "inputTokens": 1151416,
+          "outputTokens": 8177,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        },
+        {
+          "project": "uhi",
+          "inputTokens": 3618707,
+          "outputTokens": 21248,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "copilot",
+          "inputTokens": 1000800,
+          "outputTokens": 119125,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 6362558,
+          "cost": 6.6980424
+        },
+        {
+          "agent": "opencode",
+          "inputTokens": 10581195,
+          "outputTokens": 91335,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-04-15",
+      "inputTokens": 1472349,
+      "outputTokens": 21395,
+      "cacheCreationTokens": 6471,
+      "cacheReadTokens": 4241,
+      "totalCost": 0,
+      "modelsUsed": [
+        "big-pickle",
+        "kimi"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "big-pickle",
+          "inputTokens": 61,
+          "outputTokens": 66,
+          "cacheCreationTokens": 6471,
+          "cacheReadTokens": 4241,
+          "cost": 0
+        },
+        {
+          "modelName": "kimi",
+          "inputTokens": 1472288,
+          "outputTokens": 21329,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "build",
+          "inputTokens": 546396,
+          "outputTokens": 10090,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        },
+        {
+          "project": "cibuildwheel",
+          "inputTokens": 206858,
+          "outputTokens": 3369,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        },
+        {
+          "project": "pip",
+          "inputTokens": 719034,
+          "outputTokens": 7870,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        },
+        {
+          "project": "unknown",
+          "inputTokens": 61,
+          "outputTokens": 66,
+          "cacheCreationTokens": 6471,
+          "cacheReadTokens": 4241,
+          "cost": 0
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "opencode",
+          "inputTokens": 1472349,
+          "outputTokens": 21395,
+          "cacheCreationTokens": 6471,
+          "cacheReadTokens": 4241,
+          "cost": 0
+        }
+      ]
+    },
+    {
+      "date": "2026-04-16",
+      "inputTokens": 31687490,
+      "outputTokens": 176252,
+      "cacheCreationTokens": 0,
+      "cacheReadTokens": 1856176,
+      "totalCost": 1.9848348,
+      "modelsUsed": [
+        "claude-sonnet-4-6",
+        "kimi"
+      ],
+      "modelBreakdowns": [
+        {
+          "modelName": "claude-sonnet-4-6",
+          "inputTokens": 257969,
+          "outputTokens": 43605,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 1856176,
+          "cost": 1.9848348
+        },
+        {
+          "modelName": "kimi",
+          "inputTokens": 31429521,
+          "outputTokens": 132647,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "projectBreakdowns": [
+        {
+          "project": "nox",
+          "inputTokens": 19594021,
+          "outputTokens": 101208,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 1856176,
+          "cost": 1.9848348
+        },
+        {
+          "project": "build",
+          "inputTokens": 659510,
+          "outputTokens": 6749,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        },
+        {
+          "project": "cibuildwheel",
+          "inputTokens": 579997,
+          "outputTokens": 8692,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        },
+        {
+          "project": "packaging",
+          "inputTokens": 8734058,
+          "outputTokens": 38533,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        },
+        {
+          "project": "safe_ose_2026",
+          "inputTokens": 2119904,
+          "outputTokens": 21070,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ],
+      "agentBreakdowns": [
+        {
+          "agent": "copilot",
+          "inputTokens": 257969,
+          "outputTokens": 43605,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 1856176,
+          "cost": 1.9848348
+        },
+        {
+          "agent": "opencode",
+          "inputTokens": 31429521,
+          "outputTokens": 132647,
+          "cacheCreationTokens": 0,
+          "cacheReadTokens": 0,
+          "cost": 0
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "inputTokens": 68916512,
+    "outputTokens": 935470,
+    "cacheCreationTokens": 6471,
+    "cacheReadTokens": 32771268,
+    "totalCost": 15.996217,
+    "copilotAICredits": 1599.6217000000001,
+    "cacheSavings": 35.1411435
+  },
+  "sessionCounts": {
+    "total": 108,
+    "byProject": {
+      "boost-histogram": 1,
+      "boost_histogram": 8,
+      "build": 24,
+      "cibuildwheel": 5,
+      "dependency_groups": 1,
+      "flake8-lazy": 6,
+      "nox": 14,
+      "packaging": 14,
+      "particle": 1,
+      "pip": 2,
+      "plumbum": 8,
+      "pybind11_mkdoc": 1,
+      "repo_review": 5,
+      "safe_ose_2026": 4,
+      "scikit-build-core": 2,
+      "scikit_build.github.io": 2,
+      "scikit_build_core": 3,
+      "uhi": 5,
+      "unknown": 2
+    },
+    "byAgent": {
+      "copilot": 27,
+      "opencode": 48,
+      "vscode-copilot": 33
+    }
+  }
+}
