@@ -1,6 +1,6 @@
 import marimo
 
-__generated_with = "0.23.13"
+__generated_with = "0.23.16"
 app = marimo.App(
     width="medium",
     layout_file="layouts/ai_sept_2026.slides.json",
@@ -1094,12 +1094,13 @@ def _(mo):
     mo.md(r"""
     ## 🎬 Making these slides
 
-    * Created in marimo
+    * I created them in marimo
     * Activated the AI bridge skill in Claude (Fable and Opus)
-    * Built the json data, dropped it in, and asked for plots
-    * Layout on some slides (split layout, shrink some text, etc.)
-    * Summaries for a couple of issues
-    * Graphical touchups (emojis, callouts, etc)
+    * :robot: Built the json data, dropped it in, and asked for plots
+    * :robot: Layout on some slides (split layout, shrink some text, etc.)
+    * :robot: Summaries for a couple of issues
+    * :robot: Graphical touchups (emojis, callouts, etc)
+    * :robot: Updated slides (from initial version in June)
     """)
     return
 
