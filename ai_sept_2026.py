@@ -40,19 +40,6 @@ def _(mo):
     return
 
 
-@app.cell(hide_code=True)
-def _(mo):
-    mo.md(r"""
-    ## 📚 Resources:
-
-    * [Starting with Agentic AI](https://iscinumpy.dev/post/starting-with-agentic-ai/)
-    * [Claude Code Reviews with Fable](https://iscinumpy.dev/post/claude-code-reviews/)
-    * [SE-for-Sci](https://se-for-sci.github.io) (AI section)
-    * [Scientific-Python: AI page](https://github.com/scientific-python/cookie/pull/821) (PR)
-    """)
-    return
-
-
 @app.cell
 def _(mo):
     mo.md(r"""
@@ -620,7 +607,8 @@ def _(mo):
 
 @app.cell
 def _(mo):
-    mo.md(r"""
+    mo.vstack([
+        mo.md(r"""
     ## ⚙️ My setup
 
     * AI forced to add an "AI text below" header on all PR/issue text
@@ -628,13 +616,8 @@ def _(mo):
     * Regression test before bugfix
     * Try to keep commits short (not really effective)
     * Use `prek -a --quiet`, `uv run`, `python3`
-    """)
-    return
-
-
-@app.cell
-def _(mo):
-    mo.md(r"""
+    """),
+        mo.accordion({"Global CLAUDE.md": mo.md(r"""
     You are on macOS, but have GNU sed. The github user is `henryiii`. `python3` can be used if python without dependencies is needed. Use `uv run` if in a python package.
     uv's `--python VERSION` can get any python version, like 3.8 or 3.15 (in beta).
     Use `prek -a --quiet` instead of `pre-commit run -a` for linting.
@@ -648,7 +631,8 @@ def _(mo):
     Prefix PR descriptions and comments on PRs with the line ":robot: _AI text below_ :robot:" to indicate you are an agent speaking on a user's behalf.
 
     PR descriptions should be clear and short. Don't report test plans and checkboxes, just describe if something was done beyond running stuff that runs already in CI.
-    """)
+    """)}),
+    ])
     return
 
 
@@ -685,33 +669,19 @@ def _(mo):
 
 @app.cell
 def _(mo):
-    mo.md(r"""
-    # 🔍 A closer look at specific examples
-    """)
-    return
-
-
-@app.cell
-def _(mo):
-    mo.md(r"""
+    mo.vstack([
+        mo.md(r"""
     ## 🔎 Sweeping code reviews
 
-    (You probably knew this was coming!)
-
-    https://iscinumpy.dev/post/claude-code-reviews
+    (You probably knew this was coming!) https://iscinumpy.dev/post/claude-code-reviews
 
     > Review this project for bugs, performance, simplifications, and modernizations
 
     * Fable finds a ton, and has a really low false positive rate.
     * Opus finds some, and has a low false positive rate
     * Kimi/GLM find some, moderate false positive rate
-    """)
-    return
-
-
-@app.cell
-def review_overall_stats(mo):
-    mo.hstack(
+    """),
+        mo.hstack(
         [
             mo.stat(
                 "~400",
@@ -739,7 +709,8 @@ def review_overall_stats(mo):
             ),
         ],
         widths="equal",
-    )
+    ),
+    ])
     return
 
 
@@ -875,12 +846,9 @@ def _(mo):
     ## 🧪 Scikit-build-core: Testing ~20 downstream projects
 
     * I had a `nox -s downstream -- <...>` that can test downstream projects
-    * I had Claude write a SKILL.md for testing downstream projects
-        * Check with last released scikit-build-core
-        * Check with current development branch scikit-build-core
-        * Try editable installs too
-        * Produce a report describing any regressions
-    * Now I could fire off many subagents running the skill, with a max number parallel (to manage system resources)
+    * I had Claude write a SKILL.md: check last release and `main`, try editable installs, report regressions
+    * Now I could fire off many subagents running the skill, with a max number parallel
+    * Same idea in reverse: for [pytorch/pytorch#180247](https://github.com/pytorch/pytorch/pull/180247) (moving to scikit-build-core), Claude reported the pain points ([#1367](https://github.com/scikit-build/scikit-build-core/issues/1367)), I made 4-5 PRs, and had it adapt the downstream PR to check them
     """)
     return
 
@@ -888,29 +856,10 @@ def _(mo):
 @app.cell(hide_code=True)
 def _(mo):
     mo.md(r"""
-    [scikit-build/scikit-build-core#1439](https://github.com/scikit-build/scikit-build-core/pull/1439) Summary:
+    [scikit-build/scikit-build-core#1439](https://github.com/scikit-build/scikit-build-core/pull/1439): 20 projects, `main` vs. `v0.12.2`. 16 parity, 2 upstream-only failures, and **2 regressions** in unreleased `main`:
 
-    Ran it against **20 downstream projects** (`main` vs. `v0.12.2`):
-
-    * ✅ **16 parity** — iminuit, spglib, rapidfuzz, gemmi, boost-histogram, nanobind, pyzmq, ...
-    * ⚪ **2 upstream-only failures** — astyle, symusic fail identically on both sides (not us)
-    * 🔴 **2 regressions discovered** in unreleased `main`:
-        * **manifold3d** — a new path check hard-errors on a CMake-installed package that was previously skipped silently (fixed in [#1440](https://github.com/scikit-build/scikit-build-core/pull/1440))
-        * **coreforecast** — a renamed-field warning became an aborting error for projects without a pinned `minimum-version`
-    """)
-    return
-
-
-@app.cell
-def _(mo):
-    mo.md(r"""
-    ## 🔗 Developing against downstream
-
-    * [pytorch/pytorch#180247](https://github.com/pytorch/pytorch/pull/180247) moves pytorch to scikit-build-core (from setuptools)
-    * I asked Claude for a report on the pain points of the transition [scikit-build/scikit-build-core#1367](https://github.com/scikit-build/scikit-build-core/issues/1367)
-    * I created 4-5 PRs based on this report
-    * On one, I had Claude adapt the downstream PR based on my PR, and found a problem I was able to address.
-    * I even added the "diff for 1.0+ support" to the upstream PR
+    * **manifold3d** — a new path check hard-errors on a CMake-installed package that was previously skipped silently (fixed in [#1440](https://github.com/scikit-build/scikit-build-core/pull/1440))
+    * **coreforecast** — a renamed-field warning became an aborting error for projects without a pinned `minimum-version`
     """)
     return
 
@@ -942,29 +891,6 @@ def _(mo):
             widths=[1.4, 1],
             gap=2,
             align="start",
-        ),
-    ])
-    return
-
-
-@app.cell
-def _(mo):
-    mo.vstack([
-        mo.md(r"""
-    ## 🏗️ scikit-build (classic) backend
-
-    * Tests change due to removals (mostly `setup.py` commands)
-    * Spanned three repos, including [scikit-build-sample-projects](https://github.com/scikit-build/scikit-build-sample-projects)
-
-    Claude Fable did the conversion:
-
-    * All the test adjustments and replacements, and tested the samples repo
-    * Found and fixed **seven bugs** in scikit-build-core's setuptools plugin
-        * Located my local checkout, applied fixes there, and offered a PR!
-    """),
-        mo.callout(
-            mo.md(r"""_I was really impressed, especially at how it was happy (proactive, even) to work in multiple repos at the same time._"""),
-            kind="success",
         ),
     ])
     return
@@ -1007,24 +933,24 @@ def _(mo):
 
 @app.cell
 def _(mo):
-    mo.md(r"""
+    mo.vstack([
+        mo.md(r"""
     ## ⚡ GPU hackathon
 
-    * Great for exploring a new codebase
-    * Found bugs, was able to find missing terms
-    * Eerily good at matching what I and the NVIDIA mentor plans
-    """)
-    return
-
-
-@app.cell
-def _(mo):
-    mo.md(r"""
-    ### AI could profile and propose speedups locally.
-
-    * For GPU, I explained that I couldn't run on the GPU node, and I copy-pasted its sample code and results back and forth (along with profiles)
+    * Great for exploring a new codebase: found bugs and a missing term
+    * Eerily good at matching what I and the NVIDIA mentor planned
+    * AI could profile and propose speedups locally; for GPU I copy-pasted its sample code, results, and profiles back and forth
     * Could predict speedups on GPU to a few percent!
-    """)
+    """),
+        mo.hstack(
+            [
+                mo.stat("1,000x", label="CPU", caption="From original CPU numba version", bordered=True),
+                mo.stat("1,000x", label="GPU", caption="Speedup from original version", bordered=True),
+                mo.stat("Missing term", label="Jacobian", caption="Computed and solved numeric discrepancy", bordered=True),
+            ],
+            justify="space-around",
+        ),
+    ])
     return
 
 
@@ -1048,40 +974,13 @@ def _(mo):
 
 @app.cell
 def _(mo):
-    mo.hstack(
-        [
-            mo.stat(
-                f"1,000x",
-                label="CPU",
-                caption=f"From original CPU numba version",
-                bordered=True,
-            ),
-            mo.stat(
-                f"1,000x",
-                label="GPU",
-                caption=f"Speedup from original version",
-                bordered=True,
-            ),
-            mo.stat(
-                f"Missing term",
-                label="Jacobian",
-                caption=f"Computed and solved numeric discrepancy",
-                bordered=True,
-            )
-        ],
-        justify="space-around",
-    )
-    return
-
-
-@app.cell
-def _(mo):
     mo.md(r"""
     ## 🏆 Other successes
 
     * Solved bugs that I didn't have time to work on from up to 6 years ago
     * Made scikit-build-core's test suite 40% faster with the same coverage (Fable)
     * Reworked flake8-lazy to do one pass instead of 18, 4.5x faster, 200 LoC less (Fable)
+    * Converted scikit-build (classic) tests across three repos, finding **seven bugs** in scikit-build-core's setuptools plugin on the way (Fable)
     * Scikit-build-core editable installs bugs worked out
     * Solved flaky tests in awkward-array
     * My [projects page](https://iscinumpy.dev/page/projects/)
@@ -1101,6 +1000,19 @@ def _(mo):
     * :robot: Summaries for a couple of issues
     * :robot: Graphical touchups (emojis, callouts, etc)
     * :robot: Updated slides (from initial version in June)
+    """)
+    return
+
+
+@app.cell(hide_code=True)
+def _(mo):
+    mo.md(r"""
+    ## 📚 Resources:
+
+    * [Starting with Agentic AI](https://iscinumpy.dev/post/starting-with-agentic-ai/)
+    * [Claude Code Reviews with Fable](https://iscinumpy.dev/post/claude-code-reviews/)
+    * [SE-for-Sci](https://se-for-sci.github.io) (AI section)
+    * [Scientific-Python: AI page](https://github.com/scientific-python/cookie/pull/821) (PR)
     """)
     return
 
