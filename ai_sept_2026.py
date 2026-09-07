@@ -612,7 +612,7 @@ def _(mo):
     ## ⚙️ My setup
 
     * AI forced to add an "AI text below" header on all PR/issue text
-    * `Assisted-by: ClaudeCode:claude-fable-5` trailers on commits (manual or AI)
+    * `Assisted-by: ClaudeCode:claude-fable-5-1` trailers on commits (manual or AI)
     * Regression test before bugfix
     * Try to keep commits short (not really effective)
     * Use `prek -a --quiet`, `uv run`, `python3`
@@ -649,10 +649,10 @@ def _(mo):
     ## 💡 Claude Code tips
 
     * `ccstatusline` (`npx`) is great (much better than using AI to write a status line!)
-    * Write a hook to check for worktrees writing to non-worktree paths and *warn* (never force in hooks)
     * Global skills can be made name-only (one at a time) - save on tokens
-    * Claude can understand itself: ask it to run 20 subagents, but max at 5 at a time, and it will do it.
-    * How you prompt depends on the model size:
+    * Claude can understand itself: ask it to run 20 subagents, but max at 5 at a time
+    * Low effort does less over-engineering
+    * `/simplify` and Fable is great for PRs!
     """),
         mo.hstack(
             [
@@ -683,9 +683,8 @@ def _(mo):
 
     > Review this project for bugs, performance, simplifications, and modernizations
 
-    * Fable finds a ton, and has a really low false positive rate.
-    * Opus finds some, and has a low false positive rate
-    * Kimi/GLM find some, moderate false positive rate
+    * Fable 5 finds a ton, and has a really low false positive rate.
+    * Fable 5.1 xhigh finds way more (and caught a bug in scikit-build-core affecting pytest two days before it hit them!)
     """),
         mo.hstack(
         [
