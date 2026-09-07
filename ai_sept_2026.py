@@ -611,7 +611,7 @@ def _(mo):
         mo.md(r"""
     ## ⚙️ My setup
 
-    * AI forced to add an "AI text below" header on all PR/issue text
+    * AI forced to add an "AI text below" header on all PR/issue text [(personal policy)](https://github.com/henryiii/pyhepdev_ai)
     * `Assisted-by: ClaudeCode:claude-fable-5-1` trailers on commits (manual or AI)
     * Regression test before bugfix
     * Try to keep commits short (not really effective)
@@ -653,6 +653,7 @@ def _(mo):
     * Claude can understand itself: ask it to run 20 subagents, but max at 5 at a time
     * Low effort does less over-engineering
     * `/simplify` and Fable is great for PRs!
+    * Aliases: `c`, `cw` (worktree), `cf` (fable), `cr` (resume)
     """),
         mo.hstack(
             [
