@@ -618,19 +618,25 @@ def _(mo):
     * Use `prek -a --quiet`, `uv run`, `python3`
     """),
         mo.accordion({"Global CLAUDE.md": mo.md(r"""
-    You are on macOS, but have GNU sed. The github user is `henryiii`. `python3` can be used if python without dependencies is needed. Use `uv run` if in a python package.
-    uv's `--python VERSION` can get any python version, like 3.8 or 3.15 (in beta).
+    You are on macOS, but have GNU sed. The github user is `henryiii`.
+    `python3` can be used if python without dependencies is needed. Use `uv run` if in a python package. uv's `--python VERSION` can get any python version, like 3.8 or 3.15 (in beta).
     Use `prek -a --quiet` instead of `pre-commit run -a` for linting.
+
+    Fish is the interactive shell, but the Bash tool always runs zsh, foreground and background alike. Write POSIX/zsh syntax there, not fish. Fish runs only what the user types after `! `.
+
+    For git, "git add -u" is better than adding all files, less likely to pick up extra files. Explicilty add new files.
 
     Keep comments short and focused on information that is not obvious. Text should value the reader's time. Don't add a comment if not needed, like for something removed.
 
     When fixing bugs, add the regression test first and confirm it fails without the fix if possible.
 
-    If you make a commit, follow conventional commits and add a trailer: `Assisted-by: <harness>:<model>`, where `<harness>` is the current agent harness (like ClaudeCode), and `<model>` is the AI model (Like claude-opus-4.8).
+    If you make a commit, follow conventional commits and add a trailer: `Assisted-by: <harness>:<model>`, where `<harness>` is the current agent harness (like ClaudeCode), and `<model>` is the AI model (Like claude-opus-5). This is better than the built-in attribution settings.
 
     Prefix PR descriptions and comments on PRs with the line ":robot: _AI text below_ :robot:" to indicate you are an agent speaking on a user's behalf.
 
     PR descriptions should be clear and short. Don't report test plans and checkboxes, just describe if something was done beyond running stuff that runs already in CI.
+
+    Follow ASD-STE100 Simplified Technical English. Please remove all mannered prose.
     """)}),
     ])
     return
@@ -650,13 +656,13 @@ def _(mo):
     """),
         mo.hstack(
             [
-                mo.callout(mo.md(r"""**Sonnet**
+                mo.callout(mo.md(r"""**Sonnet / Luna or Terra**
 
     Needs every detail"""), kind="warn"),
-                mo.callout(mo.md(r"""**Opus**
+                mo.callout(mo.md(r"""**Opus / Sol**
 
     Takes a little direction"""), kind="info"),
-                mo.callout(mo.md(r"""**Fable**
+                mo.callout(mo.md(r"""**Fable / Astra**
 
     Just point very gently"""), kind="success"),
             ],
@@ -684,19 +690,19 @@ def _(mo):
         mo.hstack(
         [
             mo.stat(
-                "~400",
+                "~500",
                 label="Bugs found",
-                caption="plus 400+ perf/cleanup fixes",
+                caption="plus 500+ perf/cleanup fixes",
                 bordered=True,
             ),
             mo.stat(
-                "30+",
+                "50+",
                 label="Projects reviewed",
                 caption="mine and by request",
                 bordered=True,
             ),
             mo.stat(
-                "~100%",
+                "~99%",
                 label="Merge rate",
                 caption="on decided PRs",
                 bordered=True,
